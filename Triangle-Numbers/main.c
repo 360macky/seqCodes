@@ -2,7 +2,7 @@
 
 int main(){
 
-  printf("Secuencia de Numeros Triángulos\n");
+  printf("Secuencia de Numeros Triangulos\n");
 	printf("---------------------------\n");
 	printf("Term 1 = Number 2\n");
 	printf("Term 2 = Number 3\n");
