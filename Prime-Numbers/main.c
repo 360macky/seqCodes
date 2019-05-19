@@ -29,7 +29,7 @@ if(n%2==0){
 	int divisible = 0;
 }else{
 	int divisible = 1;
-	printf("Not divisible by 2");
+	printf("Not divisible by 2\n");
 }
 
 if(n%3==0){
@@ -37,7 +37,7 @@ if(n%3==0){
 	int divisible = 0;
 }else{
 	int divisible = 1;
-	printf("Not divisible by 3");
+	printf("Not divisible by 3\n");
 }
 
 if(n%5==0){
@@ -45,17 +45,18 @@ if(n%5==0){
 	int divisible = 0;
 }else{
 	int divisible = 1;
-	printf("Not divisible by 5");
+	printf("Not divisible by 5\n");
 }
+
+int test = 1;
 
 if(n%7==0){
 	printf("Divisible by 7");
 	int divisible = 0;
 }else{
-	int divisible = 1;
-	printf("Not divisible by 7");
+	printf("Not divisible by 7\n");
+	test = test + 1;
 }
-
 
 
 /* Try */ /* Default case = 4 try */
