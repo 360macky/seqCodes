@@ -5,9 +5,15 @@ Agrupación de sucesiones matemáticas codificadas en C.
 
 ### Fibonacci:
 Sucesión de Fibonacci.
+```
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+```
 
 ### Prime-Numbers:
 Sucesión de números primos.
+```
+2, 3, 5, 7, 11, 13, 17, 19, 23
+```
 
 ### Triangle-Numbers:
 Sucesión de números triangulares.
