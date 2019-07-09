@@ -23,3 +23,6 @@ Sucesión de números elevados al cuadrado.
 
 ### Sexy-Prime-Numbers:
 Sucesión de números primos sexys.
+
+## ✒️ Desarrollador
+[Marcelo Arias Saavedra](https://360macky.blogspot.com/)
