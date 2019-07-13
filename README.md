@@ -1,7 +1,7 @@
 # sucesiones-C
-Agrupación de sucesiones matemáticas codificadas en C.
+Repositorio de sucesiones matemáticas codificadas en C.
 
-## Sucesiones matemáticas en desarrollo
+## 📓 Sucesiones matemáticas en desarrollo
 
 ### Fibonacci:
 Sucesión de Fibonacci.
@@ -28,7 +28,7 @@ Sucesión de números elevados al cuadrado.
 ```
 
 ### Sexy-Prime-Numbers:
-Sucesión de números primos sexys.
+Sucesión de números primos sexis: Los números primos sexis se caracterizar por separarse de otro número par a una distancia de 6 (six). De allí su nombre. Si un número primo está a seis números de otro número primo, entonces ambos son números primos sexis.
 ```
 (5, 11), (7, 13), (11, 17), (13, 19), (17, 23), (23, 29)
 ```
