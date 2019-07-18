@@ -22,47 +22,13 @@ int limit = 4;
 
 
 
-// Conditional n%{2,3,5,7}==0
-
-if(n%2==0){
-	printf("Divisible by 2");
-	int divisible = 0;
-}else{
-	int divisible = 1;
-	printf("Not divisible by 2\n");
-}
-
-if(n%3==0){
-	printf("Divisible by 3");
-	int divisible = 0;
-}else{
-	int divisible = 1;
-	printf("Not divisible by 3\n");
-}
-
-if(n%5==0){
-	printf("Divisible by 5");
-	int divisible = 0;
-}else{
-	int divisible = 1;
-	printf("Not divisible by 5\n");
-}
-
-int test = 1;
-
-if(n%7==0){
-	printf("Divisible by 7");
-	int divisible = 0;
-}else{
-	printf("Not divisible by 7\n");
-	test = test + 1;
-}
+// Divide the number in all the numbers after itself
 
 
 /* Try */ /* Default case = 4 try */
 //for (i; i<limit; i++){
 	//if(n%2==0){
-		
+
 	//}
 //}
 
@@ -88,7 +54,7 @@ if(n%7==0){
 	If everything before = FALSE {
 		'n' = 'primeNumber'
 	}
-	
+
 
 
 */
