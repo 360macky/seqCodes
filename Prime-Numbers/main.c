@@ -13,7 +13,7 @@ int main(){
 	printf("Term 7 = Number 17\n");
 	printf("---------------------------\n");
 
-  int n = 6456;
+  int n = 71;
   int z = n - 2;
 
   // Result of the modules n%i
@@ -26,9 +26,14 @@ int main(){
     int y = i - 2;
 
     resultArray[y] = result;
-    // si el módulo (resultArray[y]) es 0, entonces es divisible.
-    // Esto solo se cumple en 2 y en 7
+    
   	//printf("17 mod %i = %i\n", i, resultArray[y]);
+
+    // If is not divisible show the number
+    if (n%i == 0) {
+      printf("%d\n", i);
+    }
+
 
     // If is divisible (not for 1, or n) it is not PRIME
     if (resultArray[y] == 0) {
