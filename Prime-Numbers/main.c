@@ -13,7 +13,7 @@ int main(){
 	printf("Term 7 = Number 17\n");
 	printf("---------------------------\n");
 
-  int n = 17;
+  int n = 6456;
   int z = n - 2;
 
   // Result of the modules n%i
@@ -21,18 +21,24 @@ int main(){
   // z = is the iterator (is not 1 or n)
   int resultArray[z];
 
-  for (size_t i = 2; i < 17; i++) {
-    int result = 17 % i;
-
+  for (size_t i = 2; i < n; i++) {
+    int result = n % i;
     int y = i - 2;
+
     resultArray[y] = result;
     // si el módulo (resultArray[y]) es 0, entonces es divisible.
     // Esto solo se cumple en 2 y en 7
-  	printf("17 mod %i = %i\n", i, resultArray[y]);
+  	//printf("17 mod %i = %i\n", i, resultArray[y]);
 
-    // Search in elements array
+    // If is divisible (not for 1, or n) it is not PRIME
+    if (resultArray[y] == 0) {
+      printf("No es un numero primo\n");
+      break;
+    }else{
+      printf("Es un numero primo\n");
+      break;
+    }
 
   }
-
 
 }
