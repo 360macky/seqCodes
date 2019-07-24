@@ -26,13 +26,10 @@ int main(){
     int y = i - 2;
 
     resultArray[y] = result;
-    
+
   	//printf("17 mod %i = %i\n", i, resultArray[y]);
 
     // If is not divisible show the number
-    if (n%i == 0) {
-      printf("%d\n", i);
-    }
 
 
     // If is divisible (not for 1, or n) it is not PRIME
