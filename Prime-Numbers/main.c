@@ -36,13 +36,18 @@ int main(){
       for (module=2; module<=start; module++){
 
           // Start to evaluate each number for module
-          if (start%module == 0) {
-            iterator++
+          int x = start % module;
+          printf("%d modulo %d = %d\n", start, module, x);
+          if (start % module == 0) {
+            iterator++;
           }
+          printf("+Iterator= %i\n", iterator);
 
       }
       if (iterator==1) {
-        printf("%d\n", start);
+        printf("1 PRIME: %d\n\n", start);
+      }else{
+        printf("0 PRIME: %d\n\n", start);
       }
       iterator=0;
   }
