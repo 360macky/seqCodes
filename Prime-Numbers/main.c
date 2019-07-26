@@ -16,6 +16,11 @@ int main(){
   int n = 71;
   int z = n - 2;
 
+  // New function
+
+
+
+
   // Result of the modules n%i
   // n = is the number to evaluate
   // z = is the iterator (is not 1 or n)
@@ -24,14 +29,7 @@ int main(){
   for (size_t i = 2; i < n; i++) {
     int result = n % i;
     int y = i - 2;
-
     resultArray[y] = result;
-
-  	//printf("17 mod %i = %i\n", i, resultArray[y]);
-
-    // If is not divisible show the number
-
-
     // If is divisible (not for 1, or n) it is not PRIME
     if (resultArray[y] == 0) {
       printf("No es un numero primo\n");
