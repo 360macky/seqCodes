@@ -26,19 +26,17 @@ int main(){
   // z = is the iterator (is not 1 or n)
   int resultArray[z];
 
-  for (size_t i = 2; i < n; i++) {
-    int result = n % i;
-    int y = i - 2;
-    resultArray[y] = result;
+  //for (size_t i = 2; i < n; i++) {
+    //int result = n % i;
+    //int y = i - 2;
+    //resultArray[y] = result;
     // If is divisible (not for 1, or n) it is not PRIME
-    if (resultArray[y] == 0) {
-      printf("No es un numero primo\n");
-      break;
-    }else{
-      printf("Es un numero primo\n");
-      break;
-    }
+    //if (resultArray[y] == 0) {
+      //printf("No es un numero primo\n");
+      //break;
+    //}else{
+      //printf("Es un numero primo\n");
+      //break;
+    //}
 
   }
-
-}
