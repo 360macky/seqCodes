@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+
 int main(){
 
   printf("Secuencia de Numeros Primos\n");
@@ -13,30 +14,37 @@ int main(){
 	printf("Term 7 = Number 17\n");
 	printf("---------------------------\n");
 
-  int n = 71;
-  int z = n - 2;
+  int n;
+  int module;
+  int iterator;
+  int start;
 
-  // New function
+  printf("Ingresa el numero limite\n");
+  n = 10;
 
+  // Define an array of numbers since 2 (bcoz 1 not for be a prime Number), to N number.
+  for (start=2; start<=n; start++) {
 
+    // For this array, we have to modulize each number following this rule:
+    // - n % x = 0 {x = 1, x = n}
+    // - n % y = 1 {x != 1, x != n}
+    // NOTE: { n = start++, x = module }
 
+      // For a While, start is a constant
+      // And in the following 'for()', we module that constant 'start'
+      // with the variable 'module'. Like constant % variable
+      for (module=2; module<=start; module++){
 
-  // Result of the modules n%i
-  // n = is the number to evaluate
-  // z = is the iterator (is not 1 or n)
-  int resultArray[z];
+          // Start to evaluate each number for module
+          if (start%module == 0) {
+            iterator++
+          }
 
-  //for (size_t i = 2; i < n; i++) {
-    //int result = n % i;
-    //int y = i - 2;
-    //resultArray[y] = result;
-    // If is divisible (not for 1, or n) it is not PRIME
-    //if (resultArray[y] == 0) {
-      //printf("No es un numero primo\n");
-      //break;
-    //}else{
-      //printf("Es un numero primo\n");
-      //break;
-    //}
-
+      }
+      if (iterator==1) {
+        printf("%d\n", start);
+      }
+      iterator=0;
   }
+
+}
