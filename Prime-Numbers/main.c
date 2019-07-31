@@ -5,13 +5,14 @@ int main(){
   printf("Secuencia de Numeros Primos\n");
 	printf("---------------------------\n");
 
+  // Initializing Variables
   int n;
   int module;
   int iterator;
   int start;
 
   printf("Ingresa el numero limite\n");
-  scanf("%d\n", &n);
+  scanf("%i\n", &n);
 
   // Define an array of numbers since 2 (bcoz 1 not for be a prime Number), to N number.
   for (start=2; start<=n; start++) {
@@ -27,18 +28,13 @@ int main(){
       for (module=2; module<=start; module++){
 
           // Start to evaluate each number for module
-          int x = start % module;
-
           if (start % module == 0) {
             iterator++;
           }
-          printf("+Iterator= %i\n", iterator);
 
       }
       if (iterator==1) {
-        printf("1 PRIME: %d\n\n", start);
-      }else{
-        printf("0 PRIME: %d\n\n", start);
+        printf("%d\n", start);
       }
       iterator=0;
   }
