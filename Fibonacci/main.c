@@ -19,19 +19,6 @@ int main(){
 	printf("Input the term based in the Fibonacci Sequence\n");
 	scanf("%i\n", n);
 
-	int count = 4;
-	int zero = 0; //  Término 1
-	int once = 1; // Término 2
-
-	// Fibonacci Sequence
-	/for (size_t i = 0; i < count; i++) {
-		// Si el término es 6, entonces lo repetiremos
-		//un total de 6-2 veces, es decir 4 veces:
-		int a = zero + once;
-		int b = once + a;
-		printf("%i\n", i);
-	}
-	*/
 
 	// A es el número anterior a B
 	// B es el número presente
@@ -39,12 +26,6 @@ int main(){
 	// A + B = C
 
 	// término N - 2 = veces N
-
-
-
-
-
-
 
 
 
