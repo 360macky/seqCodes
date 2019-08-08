@@ -31,7 +31,6 @@ int main(){
 		int b = once + a;
 		printf("%i\n", i);
 	}
-	*/
 
 	// A es el número anterior a B
 	// B es el número presente
