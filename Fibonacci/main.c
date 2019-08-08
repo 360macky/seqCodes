@@ -2,8 +2,6 @@
 
 int main(){
 
-	int n;
-
 	printf("Secuencia de Fibonacci\n");
 	printf("----------------------\n");
 	printf("Term 1 = Number 0\n");
@@ -17,15 +15,31 @@ int main(){
 
 	// Solicitamos el término
 	printf("Input the term based in the Fibonacci Sequence\n");
-	scanf("%i\n", n);
+	int n;
+	scanf("%d\n", &n);
+
+	// Variable
+	//int n = 10;
 
 
-	// A es el número anterior a B
-	// B es el número presente
-	// C es el siguiente término
-	// A + B = C
+	int a = 1;
+	int b = 2;
 
-	// término N - 2 = veces N
+	for (size_t i = 0; i < n; i++) {
+
+		// Obtenemos el número mayor
+		int sum = a + b;
+
+		// Imprimimos la suma
+		printf("%i\n", sum);
+
+		// Switcheamos las variables
+		a = b;
+		b = sum;
+
+	}
+
+
 
 
 
