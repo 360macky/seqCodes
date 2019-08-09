@@ -28,7 +28,7 @@ int main(){
 		int sum = a + b;
 
 		// Imprimimos la suma
-		printf("%i + %i = %i\n", a, b, sum);
+		printf("%i\n", sum);
 
 		// Switcheamos las variables
 		a = b;
