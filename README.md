@@ -1,6 +1,9 @@
 # sucesiones-C
 Repositorio de sucesiones matemáticas codificadas en el lenguaje de programación C. Algunas son muy conocidas como la sucesión de Fibonacci.
 
+## 📓 ¿Cómo funciona?
+Cada sucesión matemática tiene un Input para ingresar un número, que será considerada el Término 'n'. Y obtiene un Output donde se obtiene la sucesión desde el término 0 hasta n.
+
 ## 📓 Sucesiones matemáticas en desarrollo
 
 ### Fibonacci:
