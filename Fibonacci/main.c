@@ -1,37 +1,47 @@
 #include<stdio.h>
 
 int main(){
+
+	// Screen Title
 	printf("+-+-+-+-+-+-+-+-+-+\n");
 	printf("|F|i|b|o|n|a|c|c|i|\n");
 	printf("+-+-+-+-+-+-+-+-+-+\n");
 
-	// Solicitamos el término
-	printf("Input the term based in the Fibonacci Sequence\n");
+	// Variable for Input
 	int n;
+
+	// Message
+	printf("Input the term based in the Fibonacci Sequence\n");
 	scanf("%d", &n);
 
-	// Restamos 2 números, a causa del término 1, término 2 y término 3
+	// We subtract 4 numbers. Why? For Term 1, Term 2 and Term 3
 	n = n - 4;
 
-	// Un poco de diseño
+	// Separator line
 	printf("+-+-+-+-+-+-+-+-+-+\n");
 
-	// Variable
+	// Variables
 	int a = 1;
 	int b = 2;
 
 	printf("0\n%i\n%i\n%i\n", a, a, b);
 
+	// Loop to generate
 	for (size_t i = 0; i < n; i++) {
 
-		// Obtenemos el número mayor
+		// Making the sum
 		int sum = a + b;
 
-		// Imprimimos la suma
+		// Print the sum
 		printf("%i\n", sum);
 
-		// Switcheamos las variables
+		// Switching the variables
 		a = b;
 		b = sum;
 	}
+
 }
+/*
+	@author: Marcelo Arias
+	github.com/360macky/sucesiones-C/
+*/
