@@ -1,12 +1,13 @@
 #include<stdio.h>
 
 int main(){
+	// Título
 	printf("+-+-+-+-+-+-+-+-+-+\n");
 	printf("|F|i|b|o|n|a|c|c|i|\n");
 	printf("+-+-+-+-+-+-+-+-+-+\n");
 
 	// Solicitamos el término
-	printf("Input the term based in the Fibonacci Sequence\n");
+	printf("Ingresa el número de términos de la secuencia de Fibonacci\n");
 	int n;
 	scanf("%d", &n);
 
