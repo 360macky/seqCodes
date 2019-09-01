@@ -1,7 +1,7 @@
 """
 Fibonnaci Sequence on Python
 
-git-repository: https://github.com/360macky/suceCodes
+git-repository: https://github.com/360macky/seqCodes
 author: Marcelo A.S.
 
 """
