@@ -1,10 +1,10 @@
 # seqCodes
 Repositorio de sucesiones matemáticas codificadas en distintos lenguajes de programación. Por el momento están disponibles en C. Algunas son muy conocidas como la sucesión de Fibonacci.
 
-# Tabla de Contenido
-## Estructura principal
+## Tabla de Contenido
+### Estructura principal
 1. [¿Cómo funciona?](#-cómo-funciona)
-## Sucesiones
+### Sucesiones
  * [Fibonacci](#fibonacci "Secuencia de Fibonacci")
  * [Números Triángulos](#triangle-numbers "Secuencia de Números Triángulos")
 
