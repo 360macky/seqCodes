@@ -5,21 +5,21 @@ int main(){
   printf("Secuencia de Numeros Primos\n");
 	printf("---------------------------\n");
 
-  // Initializing Variables
+  // Definir las variables
   int n;
   int module;
   int iterator;
   int start;
 
   printf("Ingresa el numero limite\n");
-  scanf("%i\n", &n);
+  scanf("%i", &n);
 
-  // Define an array of numbers since 2 (bcoz 1 not for be a prime Number), to N number.
+  // Definir un array empezando desde 2, porque 1 no es un número primo. Entonces lo descartamos.
   for (start=2; start<=n; start++) {
 
-    // For this array, we have to modulize each number following this rule:
-    // - n % x = 0 {x = 1, x = n}
-    // - n % y = 1 {x != 1, x != n}
+    // Para este array, hemos 'modulizado' cada número siguiendo esta regla:
+    //  n % x = 0 {x = 1, x = n}
+    //  n % y = 1 {x != 1, x != n}
     // NOTE: { n = start++, x = module }
 
       // For a While, start is a constant

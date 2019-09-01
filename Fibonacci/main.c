@@ -7,7 +7,8 @@ int main(){
 	printf("|F|i|b|o|n|a|c|c|i|\n");
 	printf("+-+-+-+-+-+-+-+-+-+\n");
 
-	// Variable for Input
+	// Solicitamos el término
+	printf("Ingresa el número de términos de la secuencia de Fibonacci\n");
 	int n;
 
 	// Message
