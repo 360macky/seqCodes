@@ -2,7 +2,7 @@
 Repositorio de sucesiones matemáticas codificadas en distintos lenguajes de programación. Por el momento están disponibles en C. Algunas son muy conocidas como la sucesión de Fibonacci.
 
 # Tabla de Contenido
-## [¿Cómo funciona?](#-cómo-funciona)
+  * [¿Cómo funciona?](#-cómo-funciona)
 
 ## 📓 ¿Cómo funciona?
 Cada sucesión matemática tiene un Input para ingresar un número, que será considerada el Término 'n'. Y obtiene un Output donde se obtiene la sucesión desde el término 0 hasta n.
@@ -15,8 +15,8 @@ Sucesión de Fibonacci. (Código Completo ✔️)
 ```
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 ```
-  * [Fibonacci en Python](blob/master/Fibonacci/fibonnaci.py "Python Fibonacci")
-  * [Fibonnaci en C](blob/master/Fibonacci/fibonnaci.c "C Fibonacci")
+  * [Fibonacci en Python](Fibonacci/fibonnaci.py "Python Fibonacci")
+  * [Fibonnaci en C](Fibonacci/fibonnaci.c "C Fibonacci")
 
 ### Prime-Numbers:
 Sucesión de números primos. (Código Completo ✔️)
