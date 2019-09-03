@@ -46,5 +46,8 @@ Sucesión de números elevados al cuadrado. (Código en construcción 🏗️)
 (5, 11), (7, 13), (11, 17), (13, 19), (17, 23), (23, 29)
 ```
 
+## Estructura del Repositorio
+El repositorio está categorizado por carpetas con nombre en inglés de la sucesión matemática. Dentro de la carpeta, se organizan los archivos de diferentes lenguajes de programación y con el mismo nombre de la carpeta.
+
 ## ✒️ Desarrollador
 [Marcelo Arias Saavedra](https://360macky.blogspot.com/)
