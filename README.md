@@ -19,8 +19,8 @@ Sucesión de Fibonacci. (Código Completo ✔️)
 ```
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 ```
-  * [Fibonacci en Python](Fibonacci/fibonnaci.py "Python Fibonacci")
-  * [Fibonnaci en C](Fibonacci/fibonnaci.c "C Fibonacci")
+  * [Fibonacci en Python](Fibonacci/fibonacci.py "Python Fibonacci")
+  * [Fibonnaci en C](Fibonacci/fibonacci.c "C Fibonacci")
 
 ### Prime-Numbers:
 Sucesión de números primos. (Código Completo ✔️)
