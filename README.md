@@ -11,6 +11,8 @@ Repositorio de sucesiones matemáticas codificadas en distintos lenguajes de pro
 ## 📓 ¿Cómo funciona?
 Cada sucesión matemática tiene un Input para ingresar un número, que será considerada el Término 'n'. Y obtiene un Output donde se obtiene la sucesión desde el término 0 hasta n.
 
+El repositorio está categorizado por carpetas con el nombre en inglés de la sucesión matemática. Dentro de la carpeta, se organizan los archivos de diferentes lenguajes de programación y con el mismo nombre de la carpeta.
+
 ## 📓 Sucesiones
 Esta es una lista con las sucesiones matemáticas en desarrollo y disponibles desde este repositorio.
 
@@ -45,9 +47,6 @@ Sucesión de números elevados al cuadrado. (Código en construcción 🏗️)
 ```
 (5, 11), (7, 13), (11, 17), (13, 19), (17, 23), (23, 29)
 ```
-
-## Estructura del Repositorio
-El repositorio está categorizado por carpetas con nombre en inglés de la sucesión matemática. Dentro de la carpeta, se organizan los archivos de diferentes lenguajes de programación y con el mismo nombre de la carpeta.
 
 ## ✒️ Desarrollador
 [Marcelo Arias Saavedra](https://360macky.blogspot.com/)
