@@ -1,3 +1,10 @@
+/*
+Triangle-Numbers on C
+
+git-repository: https://github.com/360macky/seqCodes
+author: Marcelo A.S.
+*/
+
 #include<stdio.h>
 
 int main(){
