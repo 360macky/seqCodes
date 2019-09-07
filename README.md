@@ -23,6 +23,7 @@ Sucesión de Fibonacci. (Código Completo ✔️)
 ```
   * [Fibonacci en Python](Fibonacci/fibonacci.py "Python Fibonacci")
   * [Fibonnaci en C](Fibonacci/fibonacci.c "C Fibonacci")
+  * [Fibonnaci en Ruby](Fibonacci/fibonacci.rb "Ruby Fibonacci")
 
 ### Prime-Numbers:
 Sucesión de números primos. (Código Completo ✔️)
