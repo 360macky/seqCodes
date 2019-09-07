@@ -7,23 +7,23 @@ int main(){
   printf("|T|R|I|A|N|G|L|E|\n");
   printf("+-+-+-+-+-+-+-+-+\n");
 
-  // Variable for Input
+  // Variable para el Input
   int n;
 
-	// Message
+	// Mensaje
   printf("Input the term based in the Triangle-Numbers Sequence\n");
   scanf("%d", &n);
 
-  // Separator line
+  // Línea separadora
   printf("+-+-+-+-+-+-+-+-+\n");
 
-  // Loop to generate
+  // Ciclo para generar la secuencia
   for (size_t i = 1; i < n; i++) {
 
-    // Apply the formula
+    // Aplicamos la fórmula
     int z = (i*(i+1))/2;
 
-    // Print the number
+    // Imprimir el número
     printf("%i\n", z);
 
   }
