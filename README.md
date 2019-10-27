@@ -26,7 +26,7 @@ Sucesión de Fibonacci. (Código Completo ✔️)
   * [Fibonnaci en Ruby](Fibonacci/fibonacci.rb "Ruby Fibonacci")
 
 ### Prime-Numbers:
-Sucesión de números primos. (Código Completo ✔️)
+Sucesión de números primos. (Código en construcción 🏗️)
 ```
 2, 3, 5, 7, 11, 13, 17, 19, 23
 ```
@@ -36,6 +36,8 @@ Sucesión de números triangulares. (Código Completo ✔️)
 ```
 1, 3, 6, 10, 15, 21, 28, 36, 45
 ```
+  * [Números triángulares en Python](Triangle-Numbers/triangle-numbers.py "Python Números Triángulares")
+  * [Números triángulares en C](Triangle-Numbers/triangle-numbers.c "C Números Triángulares")
 
 ### Squared-Numbers:
 Sucesión de números elevados al cuadrado. (Código en construcción 🏗️)
@@ -44,7 +46,7 @@ Sucesión de números elevados al cuadrado. (Código en construcción 🏗️)
 ```
 
 ### Sexy-Prime-Numbers:
-**Sucesión de números primos sexis:** Los números primos sexis se caracterizar por separarse de otro número par a una distancia de 6 (six). De allí su nombre. Si un número primo está a seis números de otro número primo, entonces ambos son números primos sexis.  (Código en construcción 🏗️)
+Sucesión de números primos sexis: Los números primos sexis se caracterizar por separarse de otro número par a una distancia de 6 (six). De allí su nombre. Si un número primo está a seis números de otro número primo, entonces ambos son números primos sexis.  (Código en construcción 🏗️)
 ```
 (5, 11), (7, 13), (11, 17), (13, 19), (17, 23), (23, 29)
 ```
