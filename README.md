@@ -1,5 +1,5 @@
 # seqCodes - Sucesiones matemáticas
-Repositorio de sucesiones matemáticas codificadas en distintos lenguajes de programación. Por el momento están disponibles en C. Algunas son muy conocidas como la sucesión de Fibonacci.
+Repositorio de sucesiones matemáticas codificadas en distintos lenguajes de programación como C, C++ o Python. Algunas son muy conocidas como la sucesión de Fibonacci.
 
 ## Tabla de Contenido
 ### Estructura principal

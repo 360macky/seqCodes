@@ -28,7 +28,7 @@ int main(){
 	printf("0\n%i\n%i\n%i\n", a, a, b);
 
 	// Loop to generate
-	for (size_t i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++) {
 
 		// Making the sum
 		int sum = a + b;
@@ -43,6 +43,8 @@ int main(){
 
 }
 /*
-	@author: Marcelo Arias
-	github.com/360macky/sucesiones-C/
+Fibonnaci Sequence on Python
+
+git-repository: https://github.com/360macky/seqCodes.git/
+author: Marcelo A.S.
 */
